@@ -1,0 +1,335 @@
+<html>
+    <head>
+        <title>Second</title>
+   <style>
+       table, tr, td, th{
+     border: solid black 2px;
+     border-collapse: collapse;
+	 width:400px;
+	 hight:100px;
+       }
+    #top{
+        background-color: blue;
+        width: auto;
+        height: 100;
+    }
+    #mid{
+        background-color: orange;
+        width: auto;
+        height: 100;
+    
+    }
+    #bottom-left{
+        background-color: green;
+        width: 33.3%;
+        height: 100;
+        float: left;
+        
+        
+    }
+    #bottom-center{
+        background-color: yellow;
+        width: 33.3%;
+        height: 100;
+        float: left;
+       
+    }
+    #bottom-right{
+        background-color: red;
+        width: 33.3%;
+        height: 100;
+        float: right;
+        
+    }
+	.wh{
+	    background-color:silver;
+		
+	}
+	.btn{
+	    
+        border: none;
+        
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer; 
+	
+	}
+	.btn1 {
+	          padding: 10px 40px;
+	         background-color:black;
+			 color:white;
+	        border-radius: 8px;
+			width:300px;
+			
+			
+			}
+    
+    .btn3 {
+	            padding: 10px 10px;
+             color:white;
+            border-radius: 8px;
+			width:200px;
+			marigin:10px 80px;
+			position:relative;
+				left:50px;
+			}
+			.e{
+			    padding:10px 15px;
+				border-radius: 8px;
+                width:300px;
+               				
+				
+			}
+       div.wh{
+	           
+			      padding:10px;
+	            margin:10px;
+				width:800px;
+			    height:400px;
+				
+	        }
+			 div.child{
+			              background-color:white;
+						 
+			              margin:10px 10px 10px 450px;
+						  padding:10px;
+						   width:300px;
+						   position:asolute;
+				            bottom:100px;
+			}
+	           div.wh div.child .btn3{
+			                          marign:25px;
+			   }
+	    
+
+	
+   </style>
+    </head>
+    <body>
+        <a href="#bottom">Bottom of The Page.</a>
+        
+        <a href="home.html">Home</a><br>
+        <a href="about.html">About Us</a><br>
+        <a href="newsandevents.html">News And Events</a><br>
+        <a href="contact.html">Contact Us</a><br>
+
+        <table><tr><td colspan="6" align="center">Table 1</td></tr>
+        <tr>
+            <td rowspan="2">Airlines<br>name</td>
+            <td rowspan="2">Place</td>
+            <td rowspan="2">Destination</td>
+            <td colspan="2" align="center">Time</td>
+            <td>Fair</td></tr>
+			<td>Arival</td><td>Destination</td>
+        </tr>
+    </table><br>
+	<table border="1" >
+	<tr><td colspan="3" align="center">Color(change the background color of each cell)<td></tr>
+	<tr>
+	<td>red</td>
+	<td>green</td>
+	<td>black</td>
+	</tr>
+	</table> <br>
+	<table border="1">
+	<tr>
+	<td rowspan="2">Weather</td>
+	<td>Addis ababa</td>
+	<td> hawassa</td>
+	<td>bahirdar</td>
+	<td>adama</td>
+	</tr>
+	<tr>
+	<td>23</td>
+	<td>34</td>
+	<td>25</td>
+	<td>37</td>
+	</tr>
+	</table> <br>
+	<table>
+	<tr>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
+	<td>4</td>
+	</tr>
+	<tr>
+	<td>5</td>
+	<td colspan="2" rowspan="2" align="center">IMAGE START HERE</td>
+	<td>6</td>
+	</tr>
+	<tr>
+	<td>7</td>
+	
+	<td>8</td>
+	</tr>
+	<tr>
+	<td>9</td>
+	<td>10</td>
+	<td>11</td>
+	<td>12</td>
+	</tr>
+	</table>
+	
+    <div id = "top" align="center">Blue Color</div>
+    <div id = "mid" align="center">Orange Color</div>
+    <div id = "bottom-left" align="center">Green Color</div>
+    <div id = "bottom-center" align="center">Yellow Color</div>
+    <div id = "bottom-right" align="center">Red Color</div><br>
+    
+    <ul>
+	<li>web DESIGNING TOOL</LI>
+	<UL>
+	<li>HTML</li>
+	<UL>
+	<li>HTML  3</li>
+	<li>HTML 4</li>
+	<li>HTML 5</li>
+	</ul>
+	</ul>
+	<ul list-style-type:"circle">
+	
+	<li>CSS</li>
+	<ul>
+	<li>CSS 1.0 in December 1996</li>
+	<li>CSS 2.0 in May 1998</li>
+	<li>CSS 2.1 in June 2011</li>
+	<li>CSS 3.0 in june 2021</li>
+	</ul>
+	</ul>
+	<ul>
+	<li>javascript</li>
+	<li>Jquary</li>
+	</ul>
+	</ul><br>
+	<div class="wh">
+	<h1  style="color:blue; "> Facebook</h1>
+	
+	<p><strong >Connect with friends and the world </strong></p>
+	<p><strong>around you on Facebook</strong></p>
+   
+	<form >
+       <div class="child">
+	   
+	 <input type="text" placeholder="EMAIL OR PHONE NUMBER"  class="e">
+	 <br>
+	 <input type="password" placeholder="password" class="e">
+	 <br>
+     <button class="btn btn1" style="background-color:blue">log in</button>
+      
+	 <p style="color:blue" align="center"> forgot password?</p>
+	 <hr>
+        
+	 <button class="btn btn3" style="background-color:green">create new account</button>
+	    </div>
+	 
+	</form>
+	
+	</div>
+	
+	<div>
+	<h1>Exercise:Image Searching Website</h1>
+	<hr>
+	<label>Search Your Image here:</label>
+	<input type="search"><button>search</button>
+	
+	<p>
+	<a href="#">
+	<img src="dogs.jpg" width="300px;" height="200px";>
+	<br>click here for more images</a></p>
+	
+	
+	</div>
+	<div>
+	
+	<form action="second round.html" >
+	<fieldset  class="s">
+	<legend> feedback form</legend>
+	<p>
+	<label>FULL NAME:</label>
+	<input type="text">
+	</p>
+	<p>
+	<label>Date:</label>
+	<input type="date">
+	</p>
+	<p>
+	<label>Comment:</label>
+	<textarea class="text" row="50" cols="80" placeholder="write your comment here..."></textarea>
+	</p>
+	<p>
+	<input type="submit" name="submit" value="submit">
+	</p>
+	</fieldset>
+	
+	</form>
+	
+	</div>
+	<ul style="list-style-type:disc">
+	<li>web Development tool</li>
+	<ul style="list-style-type:circle">
+	<li>PHP</li>
+	<li>.NET</li>
+	<ul style="list-style-type:square">
+	<li>C#.NET</LI>
+	<LI>VB.NET</LI>
+	<li>ASP.net</li>
+    </ul>
+	</ul>
+	<ul style="list-style-type:circle">
+	<li>JSP</li>
+	
+	</ul>
+	
+	
+	
+	</ul>
+	<a href="http:\\www.google.com" target="_blank" > click here</a>
+	
+    <p id= "bottom"> This is supposed to be the top of the webpage.</p>    
+<br><br><br>
+
+<select size="3" multiple>
+<optgroup label="dell laptop">
+<option>i3</option>
+<option>i5</option>
+<option>i7</option>
+</optgroup>
+<optgroup label="hp laptop">
+<option>i3</option>
+<option>i5</option>
+<option>i7</option>
+</optgroup>
+</select>
+<table>
+<tr>
+<td style="text-align:center">1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>5</td>
+<td rowspan="2" colspan="2"><img src="dogs.jpg" alt="dog image " width="80px" height="80px"></td>
+<td>6</td>
+</tr>
+</table>
+<form>
+  <input list="browsers">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+</form>
+  <input type="url">
+
+     
+</body>
+    </html>
